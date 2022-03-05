@@ -3,11 +3,19 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class HomeService {
-  fnSum: any;
-  onSum() {
-    throw new Error('Method not implemented.');
+export class UserService {
+  [x: string]: any;
+
+  users = []
+  constructor() { }
+
+  getUser ()
+  {
+
   }
 
-  constructor() { }
+  setUser ()
+  {
+
+  }
 }
